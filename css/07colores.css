@@ -1,0 +1,79 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-size: 1.5em;
+	background-color: deepskyblue
+}
+.box{
+	width: 200px;
+	height: 200px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right:  auto;
+	}
+.bux{
+	width: 500px;
+	height: 50px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right:  auto;
+}
+.box-1{
+	background-color: rgb(0,0,0);
+}
+.box-2{
+	background-color: rgb(255,255,255);
+}
+.box-3{
+	background-color: rgb(150,150,150);
+}
+.box-4{
+	background-color: rgba(150,150,150,.7);
+}
+.box-5{
+	/*background-color: rgb(150,150,150);*/
+	background-color:#00ff00;
+}
+.box-6{
+	background-color: hsl(120,100%,50%);
+}
+.box-7{
+	background-color: hsla(120,100%,50%,.5);
+}
+.box-81{
+	background-color: hsl(0,100%,50%);
+}
+.box-82{
+	background-color: hsl(30,100%,50%);
+}
+.box-83{
+	background-color: hsl(60,100%,50%);
+}
+.box-84{
+	background-color: hsl(90,100%,50%);
+}
+.box-85{
+	background-color: hsl(120,100%,50%);
+}
+.box-86{
+	background-color: hsl(150,100%,50%);
+}
+.box-87{
+	background-color: hsl(180,100%,50%);
+}
+.box-88{
+	background-color: hsl(210,100%,50%);
+}
+.box-89{
+	background-color: hsl(240,100%,50%);
+}
+.box-80{
+	background-color: hsl(270,100%,50%);
+}
+.box-811{
+	background-color: hsl(300,100%,50%);
+}
+.box-812{
+	background-color: hsl(330,100%,50%);
+}

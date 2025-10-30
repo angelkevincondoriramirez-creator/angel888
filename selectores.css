@@ -1,0 +1,66 @@
+/* -------------------------
+   1.3.4 Selectores Agrupados
+   ------------------------- */
+h2, p {
+  color: darkblue;
+}
+
+/* -------------------------
+   1.3.5 Selectores Descendientes
+   ------------------------- */
+div p {
+  color: green;
+}
+
+/* Hijo directo */
+div > span {
+  color: red;
+  font-weight: bold;
+}
+
+/* Hermano siguiente (+) */
+h3 + p {
+  background-color: lightyellow;
+}
+
+/* Hermanos siguientes (~) */
+h3 ~ ul {
+  border: 1px solid orange;
+}
+
+/* -------------------------
+   1.3.6 Selectores de Atributo
+   ------------------------- */
+/* Sencillos */
+a[target] {
+  color: purple;
+}
+a[href="https://www.google.com"] {
+  color: red;
+}
+
+/* Con comodines */
+/* Empieza con (^) */
+input[name^="user"] {
+  background-color: lightcyan;
+}
+
+/* Termina con ($) */
+input[name$="mail"] {
+  background-color: lightpink;
+}
+
+/* Contiene (*) */
+input[name*="pass"] {
+  background-color: lightgreen;
+}
+
+/* Contiene separado por espacios (~) */
+[class~="especial"] {
+  border: 2px dashed blue;
+}
+
+/* Empieza con más un guion (|=) */
+[lang|="es"] {
+  background-color: rgb(220, 220, 245);
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Práctica de Selectores Compuestos</title>
+  <!-- Enlace al archivo CSS externo -->
+  <link rel="stylesheet" href="selectores.css">
+</head>
+<body>
+  <h1>Práctica: Selectores Compuestos</h1>
+
+  <h2>1.3.4 Selectores Agrupados</h2>
+  <p>Este párrafo y el título tienen el mismo estilo por el agrupado.</p>
+
+  <h2>1.3.5 Selectores Descendientes</h2>
+  <div>
+    <p>Yo soy un párrafo dentro de un DIV (descendiente).</p>
+    <span>Yo soy un hijo directo del DIV.</span>
+  </div>
+  <h3>Título</h3>
+  <p>Soy un párrafo hermano siguiente de H3 (+).</p>
+  <ul>
+    <li>Hermano siguiente (~) 1</li>
+    <li>Hermano siguiente (~) 2</li>
+  </ul>
+
+  <h2>1.3.6 Selectores de Atributo</h2>
+  <p><a href="https://www.google.com" target="_blank">Ir a Google</a></p>
+  <p><a href="https://facebook.com">facebook</a></p>
+
+  <form>
+    <input type="text" name="username" placeholder="Usuario (empieza con user)">
+    <input type="email" name="mimail" placeholder="Correo (termina con mail)">
+    <input type="password" name="userpass" placeholder="Password (contiene pass)">
+  </form>
+
+  <p class="caja especial">Yo tengo la clase especial (usando ~)</p>
+
+  <p lang="es-MX">Texto con atributo lang="es-MX".</p>
+</body>
+</html>

@@ -1,0 +1,61 @@
+body{
+	background-color: lightgrey
+;
+}
+[class^="box"]{
+	background-color: tomato;
+	box-sizing: border-box;
+	width: 200px;
+	height: 200px;
+	/*padding: 50px;*/
+	margin-bottom: 20px;
+	margin: auto; 
+	/*float: left;*/
+}
+.box-1{
+	background-clip: padding-box;
+	border: 30px dotted green;
+}
+.box-2{
+	border-style: dashed;
+	border-width: 20px;
+	border-color: blueviolet;
+}
+.box-3{
+	border-bottom-width: 10px;
+	border-right-width: 40px;
+	border-top-width: 30px;
+	border-left-width: 20px;
+
+
+	border-bottom-style: double;
+	border-left-style: groove;
+	border-right-style: solid;
+	border-top-style: dotted;
+
+	border-bottom-color: red;
+	border-top-color: lime;
+	border-left-color: cyan;
+	border-right-color: aqua;
+}
+
+.box-4{
+	border-color: lime aqua red cyan;
+	border-style: dotted solid double groove;
+	border-width: 30px 40px 10px 20px; 
+}
+.box-5{
+	border: groove 100px blue;
+}
+.box-6{
+    border-bottom:solid 100px aqua;
+	border-top: solid 100px green;
+	border-left: solid 100px blue;
+	border-right: solid 100px purple;
+}
+.box-7{
+    background-color: transparent;
+	border-color: transparent green transparent;
+	border-style: solid  ;
+	border-width: 100px;
+}

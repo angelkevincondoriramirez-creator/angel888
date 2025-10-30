@@ -1,0 +1,92 @@
+/*selectores sensillos */
+*{
+	color: green;
+	margin: .5em;
+	padding: .3em;
+}
+body{
+	background-color: black;
+}
+h1{
+	background-color: deepskyblue; 
+	color: black;
+}
+p{
+	background-color: tomato;
+	color: black;
+}
+.t3{
+	background-color: deeppink;
+	color: white; 
+}
+.center{
+	text-align: center;
+}
+.parrafo{
+	background-color: dodgerblue;
+	color: bisque;
+
+}
+.bold{
+	font-weight: bold;
+}
+#selectorId{
+	background-color: lime;
+	color: blue;
+} 
+.tSelecA,.pSA{
+	background-color: lime;
+	color: blue;
+
+}
+
+
+h2 { 
+color: darkblue; 
+} 
+
+div p { 
+color: green; 
+} 
+
+div > span { 
+color: red; 
+font-weight: bold; 
+} 
+ 
+h3  { 
+background-color: lightyellow; 
+} 
+
+h3 ~ ul { 
+border: 1px solid orange; 
+} 
+
+a[target] { 
+color: purple; 
+} 
+a[href="https://www.google.com"] { 
+color: red; 
+} 
+input[name^="user"] { 
+background-color: cyan; 
+} 
+
+input[name$="mail"] { 
+  background-color: lightpink; 
+} 
+ 
+
+input[name*="pass"] { 
+  background-color: green; 
+} 
+ 
+ 
+[class~="especial"] { 
+  border: 2px dashed blue; 
+} 
+ 
+
+[lang|="es"] { 
+  background-color: beige; 
+} 

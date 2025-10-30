@@ -1,0 +1,12 @@
+:root{
+	--colorf: blue
+}
+body{
+	background-color: var(--colorf);
+	margin: 30px
+}
+h1{
+	background-color: pink;  
+	color: var(--colorf); 
+	padding: 15px;
+}
